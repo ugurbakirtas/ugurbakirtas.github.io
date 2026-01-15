@@ -22,17 +22,25 @@
       <h3>Fresh Breeze</h3>
       <p>Ferahlık veren günlük kullanım için ideal.</p>
       <span>₺299</span>
+      <button onclick="addToCart('Fresh Breeze')">Sepete Ekle</button>
     </div>
     <div class="product">
       <img src="images/parfum2.jpg" alt="Night Elegance">
       <h3>Night Elegance</h3>
       <p>Geceye özel kalıcı ve etkileyici koku.</p>
       <span>₺399</span>
+      <button onclick="addToCart('Night Elegance')">Sepete Ekle</button>
     </div>
   </section>
 
   <footer>
     <p>© 2026 Uğur Parfüm</p>
   </footer>
+
+  <script>
+    function addToCart(productName) {
+      alert(productName + " sepete eklendi!");
+    }
+  </script>
 </body>
 </html>
